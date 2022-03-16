@@ -1,11 +1,13 @@
 ### Personal Info
 <ul>
-<li>a. Full	name</li>
-<li>b. Student	ID</li>
-<li>c. Chapman	email</li>
-<li>d. Course	number	and	section</li>
-<li>e. Assignment	or	exercise	number</li>
+<li>a. Isaac Min</li>
+<li>b. 2350266</li>
+<li>c. ismin@chapman.edu</li>
+<li>d. CPSC 392-02</li>
+<li>e. Project 1</li>
 </ul>
 
-### A	description	of	any	known	compile	or	runtime	errors,	code	limitations,	or	deviations from	the	assignment	specification (if	applicable)
-### A	list of	all	references	used	to	complete	the	assignment,	including	peers	(if	applicable)
+### References
+
+https://stackoverflow.com/questions/3606697/how-to-set-limits-for-axes-in-ggplot2-r-plots
+
