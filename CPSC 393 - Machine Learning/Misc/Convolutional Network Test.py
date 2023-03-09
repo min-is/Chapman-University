@@ -46,5 +46,10 @@ model = kb.Sequential([
     kb.layers.Dropout(0.3),
     kb.layers.Dense(128, activation='relu'),
     kb.layers.Dropout(0.3),
-    kb.layers.Dense(10, activation='softmax')
+    kb.layers.Dense(10, activation='sigmoid')
 ])
+
+model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+
+model.fit(x_train, y_train, epochs=100, validation_data = (x_test, y_test))
